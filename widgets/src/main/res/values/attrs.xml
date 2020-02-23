@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="StateView">
+        <!--加载状态视图控件的提示展示图片-->
+        <attr name="src" format="reference"/>
+        <!--图片控件宽度-->
+        <attr name="picWidth" format="dimension"/>
+        <!--高度-->
+        <attr name="picHeight" format="dimension"/>
+        <attr name="picVisible" format="enum">
+            <enum name="visible" value="0"/>
+            <enum name="invisible" value="4"/>
+            <enum name="gone" value="8"/>
+        </attr>
+        <attr name="state_progressBarVisible" format="enum">
+            <enum name="visible" value="0"/>
+            <enum name="invisible" value="4"/>
+            <enum name="gone" value="8"/>
+        </attr>
+        <!--提示文案，如网络出错了等-->
+        <attr name="state_hint" format="string"/>
+        <attr name="hintTextSize" format="integer"/>
+        <attr name="hintTextColor" format="color"/>
+        <attr name="hintVisible" format="enum">
+            <enum name="visible" value="0"/>
+            <enum name="invisible" value="4"/>
+            <enum name="gone" value="8"/>
+        </attr>
+        <!--操作加载状态提示文案，如正在加载等-->
+        <attr name="loadState" format="string"/>
+        <attr name="loadStateTextSize" format="integer"/>
+        <attr name="loadStateTextColor" format="color"/>
+        <attr name="loadStateVisible" format="enum">
+            <enum name="visible" value="0"/>
+            <enum name="invisible" value="4"/>
+            <enum name="gone" value="8"/>
+        </attr>
+        <!--重新加载按钮文案-->
+        <attr name="reload" format="string"/>
+        <attr name="reloadTextSize" format="integer"/>
+        <attr name="reloadTextColor" format="color"/>
+        <attr name="reloadVisible" format="enum">
+            <enum name="visible" value="0"/>
+            <enum name="invisible" value="4"/>
+            <enum name="gone" value="8"/>
+        </attr>
+        <!--重新加载控件宽度-->
+        <attr name="reloadWidth" format="dimension"/>
+        <attr name="reloadHeight" format="dimension"/>
+        <!--文案与控件上下边界的间距-->
+        <attr name="reloadPaddingTB" format="dimension"/>
+    </declare-styleable>
+
+
+    <declare-styleable name="LoadStateView">
+        <!--提示文案-->
+        <attr name="hint" format="string"/>
+        <!--展示提示视图标志-->
+        <attr name="hintShow" format="boolean"/>
+        <attr name="textSize" format="float"/>
+        <attr name="textColor" format="color"/>
+        <attr name="singleLine" format="boolean"/>
+        <!--左右分割线高度-->
+        <attr name="lineHeight" format="dimension"/>
+        <!--分割线颜色-->
+        <attr name="lineColor" format="color"/>
+        <!--分割线可见-->
+        <attr name="lineVisible" format="enum">
+            <enum name="visible" value="0"/>
+            <enum name="invisible" value="4"/>
+            <enum name="gone" value="8"/>
+        </attr>
+        <attr name="progressBarHeight" format="dimension"/>
+        <attr name="progressBarWidth" format="dimension"/>
+        <attr name="progressBarVisible" format="enum">
+            <enum name="visible" value="0"/>
+            <enum name="invisible" value="4"/>
+            <enum name="gone" value="8"/>
+        </attr>
+    </declare-styleable>
+</resources>
